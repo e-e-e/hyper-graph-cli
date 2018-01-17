@@ -1,0 +1,29 @@
+{
+  "name": "hyper-graph-cli",
+  "version": "1.0.0",
+  "description": "A command line interface for hyper-graph-db's",
+  "main": "index.js",
+  "bin": {
+    "hypergraph": "./bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyper-graph-db",
+    "sparql",
+    "triples",
+    "rdf",
+    "graph"
+  ],
+  "author": "Benjamin Forster",
+  "license": "MIT",
+  "dependencies": {
+    "hyper-graph-db": "^0.1.1",
+    "hyperdiscovery": "^7.0.0",
+    "n3": "^0.11.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
