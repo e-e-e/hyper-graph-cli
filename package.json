@@ -1,6 +1,6 @@
 {
   "name": "hyper-graph-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A command line interface for hyper-graph-db's",
   "main": "index.js",
   "bin": {
@@ -9,6 +9,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-e-e/hyper-graph-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/e-e-e/hyper-graph-cli/issues"
+  },
+  "homepage": "https://github.com/e-e-e/hyper-graph-cli",
   "keywords": [
     "hyper-graph-db",
     "sparql",
